@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: gold_trip_metrics
+    description: Aggregated Uber trip metrics by date and time of day
+    columns:
+      - name: pickup_date
+        tests:
+          - not_null
+
+      - name: time_of_day
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["morning", "afternoon", "evening", "night"]
+
+      - name: total_trips
+        tests:
+          - not_null
+
+      - name: avg_trip_duration_min
+        tests:
+          - not_null
+
+      - name: avg_fare
+        tests:
+          - not_null

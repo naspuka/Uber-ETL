@@ -32,6 +32,35 @@ services:
     volumes:
       - minio_data:/data
 
+  spark-thrift:
+    build:
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-thrift
+    ports:
+      - "10000:10000"
+      - "4041:4040"
+    depends_on:
+      - minio
+    volumes:
+      - ./spark-warehouse:/tmp/spark-warehouse
+    command:
+      - /bin/bash
+      - -c
+      - |
+        /opt/spark/sbin/start-thriftserver.sh \
+          --master local[*] \
+          --conf spark.sql.warehouse.dir=/tmp/spark-warehouse \
+          --conf spark.hadoop.fs.s3a.endpoint=http://minio:9000 \
+          --conf spark.hadoop.fs.s3a.access.key=minio \
+          --conf spark.hadoop.fs.s3a.secret.key=minio123 \
+          --conf spark.hadoop.fs.s3a.path.style.access=true \
+          --conf spark.hadoop.fs.s3a.impl=org.apache.hadoop.fs.s3a.S3AFileSystem \
+          --hiveconf hive.server2.thrift.bind.host=0.0.0.0 \
+          --hiveconf hive.server2.thrift.port=10000
+        tail -f /opt/spark/logs/*.out || sleep infinity
+        
+
   airflow-init:
     image: apache/airflow:2.7.3
     depends_on:
@@ -77,6 +106,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
+      - ~/.dbt:/opt/airflow/.dbt:ro
     ports:
       - "8080:8080"
     command: bash -c "airflow webserver & airflow scheduler"

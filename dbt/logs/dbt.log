@@ -1,0 +1,32 @@
+[0m23:10:20.291561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b1c4730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19f4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19ee00>]}
+
+
+============================== 23:10:20.294477 | 857891a5-3c1a-4d6f-8138-56b895b1c62f ==============================
+[0m23:10:20.294477 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:10:20.294856 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/nas/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init uber_analytics', 'send_anonymous_usage_stats': 'True'}
+[0m23:10:20.303668 [debug] [MainThread]: Starter project path: /Users/nas/Documents/data-engineering/UberETL/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m23:10:20.308695 [info ] [MainThread]: 
+Your new dbt project "uber_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:10:20.308897 [info ] [MainThread]: Setting up your profile.
+[0m23:10:34.416500 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:10:34.419585 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:10:34.419778 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:12:20.296621 [info ] [MainThread]: Profile uber_analytics written to /Users/nas/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:12:20.318146 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 120.096664, "process_in_blocks": "0", "process_kernel_time": 0.180444, "process_mem_max_rss": "97992704", "process_out_blocks": "0", "process_user_time": 0.675439}
+[0m23:12:20.320835 [debug] [MainThread]: Command `dbt init` succeeded at 23:12:20.320668 after 120.10 seconds
+[0m23:12:20.322250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b1c4730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19ecb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19e230>]}
+[0m23:12:20.322692 [debug] [MainThread]: Flushing usage events

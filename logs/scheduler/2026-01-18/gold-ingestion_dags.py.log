@@ -1,0 +1,431 @@
+[2026-01-18T16:16:35.468+0000] {processor.py:157} INFO - Started process (PID=9590) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:16:35.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:16:35.472+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:16:35.471+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:16:35.653+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:16:36.157+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:16:36.157+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-18T16:16:36.167+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:16:36.167+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-18T16:16:36.170+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:16:36.170+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-18T16:16:36.170+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:16:36.170+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:16:36.194+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:16:36.194+0000] {dag.py:2963} INFO - Creating ORM DAG for silver_to_gold_dbt
+[2026-01-18T16:16:36.247+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:16:36.245+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:16:36.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.802 seconds
+[2026-01-18T16:17:06.781+0000] {processor.py:157} INFO - Started process (PID=9600) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:17:06.783+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:17:06.787+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:17:06.785+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:17:06.818+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:17:06.863+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:17:06.863+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:17:06.882+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:17:06.882+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:17:06.893+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.124 seconds
+[2026-01-18T16:17:37.251+0000] {processor.py:157} INFO - Started process (PID=9610) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:17:37.256+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:17:37.258+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:17:37.257+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:17:37.285+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:17:37.323+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:17:37.323+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:17:37.340+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:17:37.340+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:17:37.349+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.104 seconds
+[2026-01-18T16:18:07.811+0000] {processor.py:157} INFO - Started process (PID=9620) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:18:07.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:18:07.814+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:18:07.813+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:18:07.863+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:18:07.898+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:18:07.898+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:18:07.947+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:18:07.947+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:18:07.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.176 seconds
+[2026-01-18T16:18:38.392+0000] {processor.py:157} INFO - Started process (PID=9630) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:18:38.394+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:18:38.395+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:18:38.394+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:18:38.421+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:18:38.460+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:18:38.460+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:18:38.513+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:18:38.512+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:18:38.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.163 seconds
+[2026-01-18T16:19:08.796+0000] {processor.py:157} INFO - Started process (PID=9640) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:19:08.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:19:08.799+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:19:08.799+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:19:08.834+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:19:08.873+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:19:08.873+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:19:08.909+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:19:08.909+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:19:08.920+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.132 seconds
+[2026-01-18T16:19:39.485+0000] {processor.py:157} INFO - Started process (PID=9650) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:19:39.487+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:19:39.487+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:19:39.487+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:19:39.510+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:19:39.565+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:19:39.565+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:19:39.588+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:19:39.588+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:19:39.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.121 seconds
+[2026-01-18T16:20:09.906+0000] {processor.py:157} INFO - Started process (PID=9660) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:20:09.911+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:20:09.913+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:20:09.912+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:20:09.942+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:20:09.979+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:20:09.979+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:20:09.998+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:20:09.998+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:20:10.007+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.110 seconds
+[2026-01-18T16:20:40.375+0000] {processor.py:157} INFO - Started process (PID=9670) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:20:40.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:20:40.380+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:20:40.378+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:20:40.415+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:20:40.466+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:20:40.466+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:20:40.498+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:20:40.498+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:20:40.517+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.155 seconds
+[2026-01-18T16:21:10.730+0000] {processor.py:157} INFO - Started process (PID=9680) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:21:10.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:21:10.734+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:21:10.733+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:21:10.761+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:21:10.801+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:21:10.801+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:21:10.822+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:21:10.822+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:21:10.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.112 seconds
+[2026-01-18T16:21:41.431+0000] {processor.py:157} INFO - Started process (PID=9690) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:21:41.433+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:21:41.434+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:21:41.434+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:21:41.465+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:21:41.497+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:21:41.497+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:21:41.513+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:21:41.513+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:21:41.525+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.103 seconds
+[2026-01-18T16:22:11.843+0000] {processor.py:157} INFO - Started process (PID=9700) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:22:11.850+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:22:11.851+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:22:11.851+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:22:11.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:22:11.928+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:22:11.928+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:22:11.952+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:22:11.952+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:22:11.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.123 seconds
+[2026-01-18T16:22:42.332+0000] {processor.py:157} INFO - Started process (PID=9710) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:22:42.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:22:42.335+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:22:42.334+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:22:42.382+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:22:42.437+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:22:42.437+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:22:42.466+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:22:42.466+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:22:42.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.170 seconds
+[2026-01-18T16:23:12.769+0000] {processor.py:157} INFO - Started process (PID=9720) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:23:12.770+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:23:12.773+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:23:12.771+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:23:12.819+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:23:12.854+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:23:12.854+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:23:12.898+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:23:12.898+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:23:12.909+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.148 seconds
+[2026-01-18T16:23:43.511+0000] {processor.py:157} INFO - Started process (PID=9730) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:23:43.515+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:23:43.518+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:23:43.517+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:23:43.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:23:43.589+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:23:43.589+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:23:43.618+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:23:43.618+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:23:43.636+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.135 seconds
+[2026-01-18T16:24:14.052+0000] {processor.py:157} INFO - Started process (PID=9747) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:24:14.082+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:24:14.094+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:24:14.089+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:24:14.144+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:24:14.196+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:24:14.196+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:24:14.277+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:24:14.276+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:24:14.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.265 seconds
+[2026-01-18T16:24:44.820+0000] {processor.py:157} INFO - Started process (PID=9757) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:24:44.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:24:44.831+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:24:44.826+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:24:44.886+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:24:44.919+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:24:44.919+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:24:44.943+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:24:44.943+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:24:44.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.164 seconds
+[2026-01-18T16:25:15.777+0000] {processor.py:157} INFO - Started process (PID=9767) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:25:15.802+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:25:15.806+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:25:15.806+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:25:15.884+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:25:15.973+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:25:15.973+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:25:16.014+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:25:16.014+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:25:16.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.263 seconds
+[2026-01-18T16:25:46.535+0000] {processor.py:157} INFO - Started process (PID=9777) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:25:46.539+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:25:46.540+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:25:46.540+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:25:46.563+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:25:46.751+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:25:46.751+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:25:46.914+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:25:46.913+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:25:46.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.451 seconds
+[2026-01-18T16:26:17.300+0000] {processor.py:157} INFO - Started process (PID=9787) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:26:17.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:26:17.303+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:26:17.302+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:26:17.330+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:26:17.411+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:26:17.411+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:26:17.512+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:26:17.512+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:26:17.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.318 seconds
+[2026-01-18T16:26:47.850+0000] {processor.py:157} INFO - Started process (PID=9797) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:26:47.852+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:26:47.853+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:26:47.852+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:26:47.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:26:47.928+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:26:47.928+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:26:47.972+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:26:47.971+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:26:47.982+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.138 seconds
+[2026-01-18T16:27:18.219+0000] {processor.py:157} INFO - Started process (PID=9807) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:27:18.222+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:27:18.223+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:27:18.223+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:27:18.257+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:27:18.306+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:27:18.306+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:27:18.338+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:27:18.337+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:27:18.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.141 seconds
+[2026-01-18T16:27:48.649+0000] {processor.py:157} INFO - Started process (PID=9817) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:27:48.651+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:27:48.653+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:27:48.652+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:27:48.694+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:27:48.749+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:27:48.749+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:27:48.785+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:27:48.785+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:27:48.798+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.157 seconds
+[2026-01-18T16:28:19.135+0000] {processor.py:157} INFO - Started process (PID=9827) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:28:19.138+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:28:19.140+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:28:19.138+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:28:19.170+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:28:19.210+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:28:19.210+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:28:19.227+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:28:19.227+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:28:19.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.109 seconds
+[2026-01-18T16:28:49.565+0000] {processor.py:157} INFO - Started process (PID=9837) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:28:49.567+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:28:49.568+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:28:49.567+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:28:49.589+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:28:49.615+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:28:49.614+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:28:49.629+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:28:49.629+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:28:49.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.080 seconds
+[2026-01-18T16:29:20.256+0000] {processor.py:157} INFO - Started process (PID=9847) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:29:20.269+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:29:20.273+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:29:20.272+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:29:20.324+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:29:20.371+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:29:20.371+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:29:20.391+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:29:20.391+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:29:20.404+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.203 seconds
+[2026-01-18T16:29:50.857+0000] {processor.py:157} INFO - Started process (PID=9857) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:29:50.870+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:29:50.887+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:29:50.880+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:29:51.004+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:29:51.058+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:29:51.057+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:29:51.105+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:29:51.105+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:29:51.125+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.294 seconds
+[2026-01-18T16:30:21.708+0000] {processor.py:157} INFO - Started process (PID=9867) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:30:21.710+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:30:21.711+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:30:21.710+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:30:21.782+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:30:21.835+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:30:21.835+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:30:21.865+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:30:21.865+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:30:21.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.194 seconds
+[2026-01-18T16:30:52.210+0000] {processor.py:157} INFO - Started process (PID=9877) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:30:52.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:30:52.212+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:30:52.212+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:30:52.264+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:30:52.331+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:30:52.331+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:30:52.358+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:30:52.358+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:30:52.372+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.177 seconds
+[2026-01-18T16:31:23.008+0000] {processor.py:157} INFO - Started process (PID=9887) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:31:23.012+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:31:23.013+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:31:23.013+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:31:23.050+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:31:23.093+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:31:23.093+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:31:23.111+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:31:23.111+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:31:23.124+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.128 seconds
+[2026-01-18T16:31:53.535+0000] {processor.py:157} INFO - Started process (PID=9897) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:31:53.539+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:31:53.540+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:31:53.540+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:31:53.569+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:31:53.619+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:31:53.619+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:31:53.639+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:31:53.639+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:31:53.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.122 seconds
+[2026-01-18T16:32:24.305+0000] {processor.py:157} INFO - Started process (PID=9907) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:32:24.309+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:32:24.311+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:32:24.310+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:32:24.377+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:32:24.434+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:32:24.434+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:32:24.477+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:32:24.477+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:32:24.491+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.205 seconds
+[2026-01-18T16:32:54.995+0000] {processor.py:157} INFO - Started process (PID=9917) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:32:54.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:32:54.998+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:32:54.998+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:32:55.024+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:32:55.089+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:32:55.088+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:32:55.108+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:32:55.108+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:32:55.119+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.135 seconds
+[2026-01-18T16:33:25.496+0000] {processor.py:157} INFO - Started process (PID=9927) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:33:25.497+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:33:25.498+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:33:25.498+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:33:25.520+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:33:25.573+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:33:25.573+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:33:25.621+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:33:25.620+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:33:25.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.175 seconds
+[2026-01-18T16:33:55.934+0000] {processor.py:157} INFO - Started process (PID=9937) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:33:55.935+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:33:55.936+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:33:55.936+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:33:55.966+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:33:56.034+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:33:56.034+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:33:56.056+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:33:56.056+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:33:56.066+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.137 seconds
+[2026-01-18T16:34:26.343+0000] {processor.py:157} INFO - Started process (PID=9947) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:34:26.345+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:34:26.346+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:34:26.346+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:34:26.378+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:34:26.420+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:34:26.419+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:34:26.445+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:34:26.445+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:34:26.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.124 seconds
+[2026-01-18T16:34:56.664+0000] {processor.py:157} INFO - Started process (PID=9957) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:34:56.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:34:56.670+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:34:56.668+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:34:56.690+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:34:56.739+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:34:56.739+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:34:56.771+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:34:56.771+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:34:56.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.123 seconds
+[2026-01-18T16:35:27.131+0000] {processor.py:157} INFO - Started process (PID=9967) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:35:27.133+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:35:27.134+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:35:27.134+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:35:27.173+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:35:27.204+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:35:27.203+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:35:27.224+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:35:27.223+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:35:27.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.138 seconds
+[2026-01-18T16:35:57.635+0000] {processor.py:157} INFO - Started process (PID=9977) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:35:57.640+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:35:57.645+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:35:57.642+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:35:57.670+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:35:57.715+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:35:57.715+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:35:57.737+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:35:57.737+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:35:57.747+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.118 seconds
+[2026-01-18T16:36:28.486+0000] {processor.py:157} INFO - Started process (PID=9987) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:36:28.489+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:36:28.490+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:36:28.489+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:36:28.524+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:36:28.619+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:36:28.619+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:36:28.695+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:36:28.695+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:36:28.719+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.247 seconds
+[2026-01-18T16:36:59.133+0000] {processor.py:157} INFO - Started process (PID=9997) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:36:59.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:36:59.135+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:36:59.135+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:36:59.166+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:36:59.214+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:36:59.214+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:36:59.246+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:36:59.246+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:36:59.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.136 seconds
+[2026-01-18T16:37:29.710+0000] {processor.py:157} INFO - Started process (PID=10007) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:37:29.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:37:29.713+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:37:29.712+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:37:29.737+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:37:29.864+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:37:29.864+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:37:29.895+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:37:29.894+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:37:29.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.214 seconds
+[2026-01-18T16:38:00.209+0000] {processor.py:157} INFO - Started process (PID=10017) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:38:00.214+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:38:00.216+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:38:00.216+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:38:00.316+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:38:00.400+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:38:00.400+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:38:00.453+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:38:00.453+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:38:00.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.263 seconds
+[2026-01-18T16:38:30.999+0000] {processor.py:157} INFO - Started process (PID=10027) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:38:31.000+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:38:31.001+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:38:31.001+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:38:31.040+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:38:31.083+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:38:31.083+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:38:31.102+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:38:31.101+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:38:31.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.133 seconds
+[2026-01-18T16:39:01.407+0000] {processor.py:157} INFO - Started process (PID=10037) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:39:01.409+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:39:01.410+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:39:01.410+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:39:01.443+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:39:01.488+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:39:01.488+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:39:01.514+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:39:01.514+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:39:01.547+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.147 seconds
+[2026-01-18T16:39:31.873+0000] {processor.py:157} INFO - Started process (PID=10047) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:39:31.875+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:39:31.878+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:39:31.876+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:39:31.913+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:39:31.953+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:39:31.952+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:39:31.968+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:39:31.968+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:39:31.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.113 seconds
+[2026-01-18T16:40:02.392+0000] {processor.py:157} INFO - Started process (PID=10057) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:40:02.395+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:40:02.396+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:40:02.396+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:40:02.414+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:40:02.440+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:40:02.440+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:40:02.453+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:40:02.453+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:40:02.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.072 seconds
+[2026-01-18T16:40:32.912+0000] {processor.py:157} INFO - Started process (PID=10067) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:40:32.915+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:40:32.916+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:40:32.915+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:40:32.947+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:40:32.984+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:40:32.984+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:40:33.000+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:40:33.000+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:40:33.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.109 seconds
+[2026-01-18T16:41:03.476+0000] {processor.py:157} INFO - Started process (PID=10077) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:41:03.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:41:03.479+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:41:03.479+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:41:03.500+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:41:03.527+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:41:03.527+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:41:03.555+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:41:03.554+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:41:03.577+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.113 seconds
+[2026-01-18T16:41:34.093+0000] {processor.py:157} INFO - Started process (PID=10087) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:41:34.094+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:41:34.095+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:41:34.095+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:41:34.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:41:34.199+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:41:34.199+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:41:34.222+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:41:34.222+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:41:34.242+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.152 seconds
+[2026-01-18T16:42:04.754+0000] {processor.py:157} INFO - Started process (PID=10097) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:42:04.756+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:42:04.757+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:42:04.756+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:42:04.780+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:42:04.832+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:42:04.832+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:42:04.853+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:42:04.852+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:42:04.867+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.118 seconds
+[2026-01-18T16:42:35.354+0000] {processor.py:157} INFO - Started process (PID=10107) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:42:35.356+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:42:35.360+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:42:35.357+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:42:35.402+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:42:35.460+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:42:35.459+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:42:35.500+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:42:35.499+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:42:35.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.167 seconds
+[2026-01-18T16:43:05.814+0000] {processor.py:157} INFO - Started process (PID=10117) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:43:05.816+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:43:05.817+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:43:05.816+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:43:05.845+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:43:05.916+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:43:05.916+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:43:05.934+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:43:05.934+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:43:05.948+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.147 seconds
+[2026-01-18T16:43:36.376+0000] {processor.py:157} INFO - Started process (PID=10127) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:43:36.382+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:43:36.383+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:43:36.382+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:43:36.412+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:43:36.445+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:43:36.445+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:43:36.469+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:43:36.469+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:43:36.483+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.121 seconds
+[2026-01-18T16:44:06.833+0000] {processor.py:157} INFO - Started process (PID=10137) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:44:06.836+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:44:06.837+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:44:06.837+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:44:06.864+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:44:06.905+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:44:06.905+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:44:06.927+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:44:06.927+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:44:06.942+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.132 seconds
+[2026-01-18T16:44:37.245+0000] {processor.py:157} INFO - Started process (PID=10147) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:44:37.248+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:44:37.251+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:44:37.249+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:44:37.274+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:44:37.350+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:44:37.349+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:44:37.389+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:44:37.389+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:44:37.444+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.205 seconds
+[2026-01-18T16:45:07.658+0000] {processor.py:157} INFO - Started process (PID=10157) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:45:07.660+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:45:07.661+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:45:07.661+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:45:07.678+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:45:07.700+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:45:07.700+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:45:07.712+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:45:07.712+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:45:07.723+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.070 seconds
+[2026-01-18T16:45:38.127+0000] {processor.py:157} INFO - Started process (PID=10167) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:45:38.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:45:38.130+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:45:38.129+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:45:38.145+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:45:38.176+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:45:38.176+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:45:38.192+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:45:38.192+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:45:38.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.084 seconds
+[2026-01-18T16:46:08.636+0000] {processor.py:157} INFO - Started process (PID=10177) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:46:08.640+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:46:08.641+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:46:08.641+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:46:08.667+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:46:08.708+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:46:08.708+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:46:08.736+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:46:08.736+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:46:08.751+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.123 seconds
+[2026-01-18T16:46:39.211+0000] {processor.py:157} INFO - Started process (PID=10187) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:46:39.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:46:39.216+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:46:39.215+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:46:39.246+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:46:39.304+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:46:39.304+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:46:39.366+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:46:39.365+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:46:39.416+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.216 seconds
+[2026-01-18T16:47:09.793+0000] {processor.py:157} INFO - Started process (PID=10197) to work on /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:47:09.796+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gold-ingestion_dags.py for tasks to queue
+[2026-01-18T16:47:09.801+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:47:09.798+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:47:09.846+0000] {processor.py:839} INFO - DAG(s) dict_keys(['silver_to_gold_dbt']) retrieved from /opt/airflow/dags/gold-ingestion_dags.py
+[2026-01-18T16:47:09.894+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:47:09.894+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-18T16:47:09.962+0000] {logging_mixin.py:154} INFO - [2026-01-18T16:47:09.960+0000] {dag.py:3722} INFO - Setting next_dagrun for silver_to_gold_dbt to 2026-01-18T00:00:00+00:00, run_after=2026-01-19T00:00:00+00:00
+[2026-01-18T16:47:09.984+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gold-ingestion_dags.py took 0.197 seconds

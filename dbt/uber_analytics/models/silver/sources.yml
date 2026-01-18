@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: silver
+    schema: silver
+    tables:
+      - name: yellow_tripdata
+        description: "Cleaned Silver trips data"
+        columns:
+          - name: pickup_date
+            tests:
+              - not_null
+          - name: trip_duration_minutes
+            tests:
+              - not_null
+              - accepted_range:
+                  min: 0
+                  max: 720  # max 12 hours trip
+          - name: fare_amount
+            tests:
+              - not_null
+              - accepted_range:
+                  min: 0
+                  max: 1000
